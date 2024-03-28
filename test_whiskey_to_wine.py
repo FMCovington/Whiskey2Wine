@@ -1,4 +1,4 @@
-# Simple unit test of demo_dilution_example_using_C1V1_eq_C2V2_toTest.py
+# Simple unit test of whiskey_to_wine.py
 
 from whiskey_to_wine import whiskey2wine
 

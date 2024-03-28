@@ -43,8 +43,10 @@ def whiskey2wine(proof=80, ounces=1.5):
     print("\nTurning Whiskey into Wine by Using 'C₁V₁ = C₂V₂' Dilution Formula:\n")
     try:
         whiskey_ABV = Decimal(proof / 200)
-    except ValueError:
+        ounces = 1.5
+    except (ValueError,TypeError):
         whiskey_ABV = Decimal(0.40)  # 40% ABV whiskey
+        ounces = 1.5
     whiskey_volume = Decimal(float(ounces))
     wine_abv = Decimal(0.14)  # 14% average ABV of wine
     ending_volume = whiskey_ABV * whiskey_volume / Decimal(wine_abv)

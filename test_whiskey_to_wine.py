@@ -23,3 +23,5 @@ for prf in range(40, 195):
 
 # Only prints if no assertion errors.
 print("\n100% Success")
+
+input("\nPress ENTER to exit.")

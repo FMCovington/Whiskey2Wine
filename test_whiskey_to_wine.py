@@ -21,6 +21,11 @@ for prf in range(40, 195):
     for vol in range(1, 10):
         test_whiskey2wine(prf, vol)
 
+# test invalid user input (should ignore and run with defaults)
+print('Testing invalid user input:')
+test_whiskey2wine("Fred","Barney")
+print()
+
 # Only prints if no assertion errors.
 print("\n100% Success")
 

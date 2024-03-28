@@ -29,7 +29,7 @@ Usage:  whiskey2wine()
 from decimal import Decimal
 
 
-# This module can be tested with test_demo_dilution.py and should pass.
+# This module can be tested with test_whiskey_to_wine.py and should pass.
 # Without the use of decimal and Decimal, it will fail on specific values.
 
 def whiskey2wine(proof=80, ounces=1.5):

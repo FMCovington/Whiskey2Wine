@@ -1,6 +1,7 @@
 #### Author: F. M. (Mike) Covington  (Feb. 2024)
 Program Filename: whiskey_to_wine.py  
-(Programmer's Note:  This is naive code, created on-the-fly for educational demonstration of concept purposes only.)
+##### (Programmer's Note:  This is naive code, created on-the-fly for educational demonstration of concept purposes only.
+#####  Still, my students and colleagues thought it clever, so here it is.)  😊
 
 #### Description:  Simple program that calculates the amount of any non-alcoholic beverage that must be added to any alcoholic beverage of known proof and volume to result in the same ABV% as wine.
 
